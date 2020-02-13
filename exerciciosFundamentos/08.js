@@ -15,7 +15,7 @@ const temporada = partidas => {
       pior = i + 1;
     }
   }
-  return [recorde, piorJogo];
+  return [recorde, pior];
 };
 
 console.log(temporada(partidas));
